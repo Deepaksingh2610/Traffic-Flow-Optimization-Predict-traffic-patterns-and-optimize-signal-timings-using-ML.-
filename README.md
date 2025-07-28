@@ -1,0 +1,2 @@
+# Traffic-Flow-Optimization-Predict-traffic-patterns-and-optimize-signal-timings-using-ML.-
+This AI-based traffic prediction system uses day, hour, and minute inputs to predict traffic levels (Low, Normal, High, Heavy). Built with Python, Flask, and Random Forest, it analyzes temporal patterns from a two-month dataset and returns real-time predictions with confidence scores via a simple web interface.
