@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block title %}Our Model{% endblock %}
+{% block content %}
+<div class="card">
+    <div class="card-header"><h3>Machine Learning Model Details</h3></div>
+    <div class="card-body">
+        <h5>Model: Random Forest Classifier</h5>
+        <p>The classifier of our prediction service is a Random Forest. This is a powerful and versatile machine learning model that belongs to the category of ensemble methods.</p>
+        <h6 class="mt-4">How It Works</h6>
+        <p>A Random Forest builds multiple decision trees during training. To make a prediction, it gets a prediction from each individual tree and then picks the final result based on the majority vote of the trees. This approach helps to correct for the overfitting habit of individual decision trees and generally results in a more accurate and stable model.</p>
+    </div>
+</div>
+{% endblock %}

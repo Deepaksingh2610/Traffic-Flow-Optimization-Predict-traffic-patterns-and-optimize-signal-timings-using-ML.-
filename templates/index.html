@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="text-center p-5 rounded-3 hero-section">
+    <h1 class="display-4">Welcome to the Traffic Situation Predictor</h1>
+    <p class="lead">Using machine learning to forecast traffic conditions based on vehicle counts.</p>
+    <hr class="my-4">
+    <p>Navigate through our pages to learn more about the project, see data insights, and make your own predictions.</p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('predict') }}" role="button">Get Started</a>
+</div>
+{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
