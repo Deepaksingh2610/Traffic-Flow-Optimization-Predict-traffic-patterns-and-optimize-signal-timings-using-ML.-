@@ -1,0 +1,12 @@
+# Python virtual environment
+venv/
+env/
+__pycache__/
+
+# Large data files (if your CSV is huge, upload it elsewhere or use a smaller sample)
+# *.csv
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
